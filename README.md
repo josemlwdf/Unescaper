@@ -14,24 +14,24 @@ It can unescape any file-type like: html, json, yaml etc...
 
 ## Usage
 
-    Clone the repository:
+Clone the repository:
 
-``git clone https://github.com/josemlwdf/unescaper.git``
+    git clone https://github.com/josemlwdf/unescaper.git
 
-    Navigate to the script's directory:
+Navigate to the script's directory:
 
-``cd repository``
+    cd unescaper
 
-    Run the script with the file path as an argument:
+Run the script with the file path as an argument:
 
-   `` python unescaper.py /path/to/file.txt``
+    python unescaper.py /path/to/file.txt
 
-    Make sure to replace /path/to/file.txt with the actual path to the file you want to modify.
+Make sure to replace /path/to/file.txt with the actual path to the file you want to modify.
 
-    The script will perform the replacements on the file contents and save the modified content back to the file. If the file path is invalid or there are issues with reading or writing the file, appropriate error messages will be displayed.
+The script will perform the replacements on the file contents and save the modified content back to the file. If the file path is invalid or there are issues with reading or writing the file, appropriate error messages will be displayed.
 
 ## Notes
 
-    This script requires Python 3.
-    The file to be modified should be a text file.
-    The script replaces specific patterns defined in the replacements dictionary. You can modify the dictionary to add or customize patterns and replacements according to your needs.
+This script requires Python 3.
+The file to be modified should be a text file.
+The script replaces specific patterns defined in the replacements dictionary. You can modify the dictionary to add or customize patterns and replacements according to your needs.
